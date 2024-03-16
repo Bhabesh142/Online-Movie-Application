@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/cinema">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MOVIES MANIA"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:id="@+id/tv1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="145dp"
+        app:srcCompat="@drawable/ticket" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/bt1"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User.?Register Here.!"
+        android:id="@+id/bt2"
+        android:layout_marginTop="260dp"
+        android:layout_toRightOf="@id/bt1"
+        android:layout_marginLeft="40dp"/>
+
+</RelativeLayout>

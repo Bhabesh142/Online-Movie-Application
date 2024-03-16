@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/web">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/tv4"
+        android:gravity="center_horizontal" />
+
+    <TableRow>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textSize="25dp"
+        android:id="@+id/tv5"
+        android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:id="@+id/ed3"
+            android:layout_marginTop="25dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="25dp"
+            android:id="@+id/tv6"
+            android:layout_marginTop="30dp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:id="@+id/ed4"
+            android:layout_marginTop="22dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="Email-Id:"
+            android:textSize="25dp"
+            android:id="@+id/tv7"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:id="@+id/ed5"
+            android:layout_marginTop="22dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phoneno:"
+            android:textSize="25dp"
+            android:id="@+id/tv8"
+            android:layout_marginTop="25dp"/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:id="@+id/ed6"
+            android:layout_marginTop="22dp"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/bt5"
+            android:layout_weight="-2"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="48dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/bt6"
+            android:layout_weight="2"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="142dp"/>
+    </TableRow>
+
+</TableLayout>
